@@ -1,24 +1,31 @@
-import logo from './logo.svg';
 import './App.css';
+import CountryCard from './components/CountryCard';
+import Counter from './components/Counter';
+import WishMessage from './components/WishMessage';
+import ProductItem from './components/ProductItem';
+import ShoppingCart from './components/ShoppingCart';
+import UserName from './components/UserName';
+import LoginForm from './components/LoginForm';
+import RegisterForm from './components/RegisterForm';
 
 function App() {
   return (
-    <div className="App">
-      <header className="App-header">
-        <img src={logo} className="App-logo" alt="logo" />
-        <p>
-          Edit <code>src/App.js</code> and save to reload.
-        </p>
-        <a
-          className="App-link"
-          href="https://reactjs.org"
-          target="_blank"
-          rel="noopener noreferrer"
-        >
-          Learn React
-        </a>
-      </header>
-    </div>
+    // 
+    <>
+    <nav className="navbar navbar-dark bg-dark navbar-expand-sm">
+      <a href="/" className="navbar-brand">React with Bootstrap</a>
+    </nav>
+    {/* <i className="fa fa-user-circle fa-4x"></i>
+    <i className="fab fa-facebook fa-4x text-primary"></i> */}
+    {/* <CountryCard/> */}
+    {/* <Counter/> */}
+    {/* <WishMessage/> */}
+    {/* <ProductItem/> */}
+    {/* <ShoppingCart/> */}
+    {/* <UserName/> */}
+    {/* <LoginForm/> */}
+    <RegisterForm/>
+    </>
   );
 }
 
