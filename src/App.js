@@ -7,6 +7,7 @@ import ShoppingCart from './components/ShoppingCart';
 import UserName from './components/UserName';
 import LoginForm from './components/LoginForm';
 import RegisterForm from './components/RegisterForm';
+import AthenticationUser from './components/AthenticationUser';
 
 function App() {
   return (
@@ -24,7 +25,8 @@ function App() {
     {/* <ShoppingCart/> */}
     {/* <UserName/> */}
     {/* <LoginForm/> */}
-    <RegisterForm/>
+    {/* <RegisterForm/> */}
+    <AthenticationUser/>
     </>
   );
 }
